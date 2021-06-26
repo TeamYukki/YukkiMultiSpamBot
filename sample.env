@@ -1,0 +1,13 @@
+API_ID = ""
+API_HASH = "'
+STRING = ""
+STRING2 = ""
+STRING3 = ""
+STRING4 = ""
+STRING5 = ""
+STRING6 = ""
+STRING7= ""
+STRING8 = ""
+STRING9 = ""
+STRING10 = ""
+SUDO = "12334 1236"
