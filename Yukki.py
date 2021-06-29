@@ -422,7 +422,7 @@ async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        if len(e.text) == 7:
+        if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
             text = "Leaving....."
